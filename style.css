@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:darkblue;
+}
+.box{
+    width: 500px;
+    height: 450px;
+    background-color: blue;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#textarea{
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(83, 83, 255);
+    color: white;
+}
+
+#select{
+    width: 400px;
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 18px;
+}
